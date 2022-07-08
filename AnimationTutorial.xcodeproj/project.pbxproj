@@ -11,6 +11,7 @@
 		CDE20E4328763451007D8726 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE20E4228763451007D8726 /* MeetingView.swift */; };
 		CDE20E4528763452007D8726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE20E4428763452007D8726 /* Assets.xcassets */; };
 		CDE20E4828763452007D8726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE20E4728763452007D8726 /* Preview Assets.xcassets */; };
+		CDE20E4F2876604E007D8726 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE20E4E2876604E007D8726 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CDE20E4228763451007D8726 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		CDE20E4428763452007D8726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE20E4728763452007D8726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDE20E4E2876604E007D8726 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CDE20E4028763451007D8726 /* AnimationTutorialApp.swift */,
 				CDE20E4228763451007D8726 /* MeetingView.swift */,
+				CDE20E4E2876604E007D8726 /* Home.swift */,
 				CDE20E4428763452007D8726 /* Assets.xcassets */,
 				CDE20E4628763452007D8726 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE20E4328763451007D8726 /* MeetingView.swift in Sources */,
+				CDE20E4F2876604E007D8726 /* Home.swift in Sources */,
 				CDE20E4128763451007D8726 /* AnimationTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = F9UA2HMXA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = F9UA2HMXA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

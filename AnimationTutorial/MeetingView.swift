@@ -10,7 +10,7 @@ import AVFAudio
 
 struct MeetingView: View {
     
-//    static let builtInMic: AVAudioSession.Port =    
+//    static let builtInMic: AVAudioSession.Port =
     var body: some View {
         VStack {
            ProgressView(value: 5, total: 15)
@@ -24,13 +24,15 @@ struct MeetingView: View {
                     Text("second remaining")
                     Label("600", systemImage: "hourglass.tophalf.fill")
                 }
+                
                
             }
             .padding()
             
-            Circle()
-                .strokeBorder(lineWidth: 24)
-                .foregroundColor(.blue)
+            Home()
+//            Circle()
+//                .strokeBorder(lineWidth: 24)
+//                .foregroundColor(.blue)
             
         }
         
@@ -39,6 +41,6 @@ struct MeetingView: View {
 
 struct MeetingView_Previews: PreviewProvider {
     static var previews: some View {
-        MeetingView()
+        MeetingView().preferredColorScheme(.dark)
     }
 }
