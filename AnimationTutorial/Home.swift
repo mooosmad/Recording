@@ -8,9 +8,15 @@
 import SwiftUI
 import AVFAudio
 
+
 struct Home : View {
     
+    @State private var amplitude: CGFloat = 0.8
+    @State private var phase: CGFloat = 0.0
+    @State private var change: CGFloat = 0.1
+    // animate wave
     @State var record = false
+    @State var sesion = false
     // creating instance for recroding...
     @State var session : AVAudioSession!
     @State var recorder : AVAudioRecorder!
@@ -79,6 +85,8 @@ struct Home : View {
                     
                     
                 }) {
+                    
+                    
                     
                     ZStack{
                         
@@ -162,11 +170,14 @@ struct Home : View {
             print(error.localizedDescription)
         }
     }
+    
 }
 
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home().preferredColorScheme(.dark)
+        Home()
+            .preferredColorScheme(.dark)
+            
     }
 }

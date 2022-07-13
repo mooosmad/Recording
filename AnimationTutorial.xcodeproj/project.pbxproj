@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD54EEE2287F656B001988C2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54EEE1287F656B001988C2 /* Theme.swift */; };
+		CD54EEE4287F668F001988C2 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54EEE3287F668F001988C2 /* DailyScrum.swift */; };
+		CD54EEE6287F66DE001988C2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54EEE5287F66DE001988C2 /* Card.swift */; };
+		CD54EEE8287F7414001988C2 /* ListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD54EEE7287F7414001988C2 /* ListViewBuilder.swift */; };
 		CDE20E4128763451007D8726 /* AnimationTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE20E4028763451007D8726 /* AnimationTutorialApp.swift */; };
-		CDE20E4328763451007D8726 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE20E4228763451007D8726 /* MeetingView.swift */; };
 		CDE20E4528763452007D8726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE20E4428763452007D8726 /* Assets.xcassets */; };
 		CDE20E4828763452007D8726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE20E4728763452007D8726 /* Preview Assets.xcassets */; };
 		CDE20E4F2876604E007D8726 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE20E4E2876604E007D8726 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD54EEE1287F656B001988C2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CD54EEE3287F668F001988C2 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		CD54EEE5287F66DE001988C2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CD54EEE7287F7414001988C2 /* ListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewBuilder.swift; sourceTree = "<group>"; };
 		CDE20E3D28763451007D8726 /* AnimationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE20E4028763451007D8726 /* AnimationTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTutorialApp.swift; sourceTree = "<group>"; };
-		CDE20E4228763451007D8726 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		CDE20E4428763452007D8726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE20E4728763452007D8726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDE20E4E2876604E007D8726 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -34,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD54EEDE287F64CD001988C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD54EEE1287F656B001988C2 /* Theme.swift */,
+				CD54EEE3287F668F001988C2 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CDE20E3428763451007D8726 = {
 			isa = PBXGroup;
 			children = (
@@ -53,11 +68,13 @@
 		CDE20E3F28763451007D8726 /* AnimationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				CD54EEDE287F64CD001988C2 /* Models */,
 				CDE20E4028763451007D8726 /* AnimationTutorialApp.swift */,
-				CDE20E4228763451007D8726 /* MeetingView.swift */,
 				CDE20E4E2876604E007D8726 /* Home.swift */,
+				CD54EEE5287F66DE001988C2 /* Card.swift */,
 				CDE20E4428763452007D8726 /* Assets.xcassets */,
 				CDE20E4628763452007D8726 /* Preview Content */,
+				CD54EEE7287F7414001988C2 /* ListViewBuilder.swift */,
 			);
 			path = AnimationTutorial;
 			sourceTree = "<group>";
@@ -140,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE20E4328763451007D8726 /* MeetingView.swift in Sources */,
+				CD54EEE8287F7414001988C2 /* ListViewBuilder.swift in Sources */,
+				CD54EEE4287F668F001988C2 /* DailyScrum.swift in Sources */,
 				CDE20E4F2876604E007D8726 /* Home.swift in Sources */,
+				CD54EEE6287F66DE001988C2 /* Card.swift in Sources */,
+				CD54EEE2287F656B001988C2 /* Theme.swift in Sources */,
 				CDE20E4128763451007D8726 /* AnimationTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
